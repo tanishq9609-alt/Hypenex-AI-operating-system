@@ -151,6 +151,23 @@ Weak conclusions must be:
 
 ---
 
+# SESSION CONTINUITY (CREDIT-SAFE CHECKPOINTING)
+
+This research process may span multiple conversations if usage limits are
+reached mid-task. To make progress resumable:
+
+- At the end of every completed stage (after it passes Red Team review),
+  output a "SESSION STATE UPDATE" block and save it to SESSION_STATE.md,
+  containing: stages completed, the next stage to run, a compact summary of
+  validated Facts/Assumptions/Recommendations locked in so far, and any
+  unresolved Red Team concerns.
+- If a new conversation begins and SESSION_STATE.md is pasted in alongside
+  this prompt, do not restart from Stage 1. Confirm the last completed
+  stage and next stage in one sentence, then continue directly from there.
+- If no SESSION_STATE.md is provided, start from Stage 1 — never assume a
+  stage is done without the state file confirming it.
+
+---
 # OPERATING PRINCIPLE
 
 The research process follows:
