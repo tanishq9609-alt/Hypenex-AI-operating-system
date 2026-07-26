@@ -102,3 +102,31 @@ What do we currently believe but have not proven?
 ### Unknowns
 
 What do we not know yet?
+
+## Existing Assets
+
+Current:
+
+- Product prototype:
+- Technology:
+- Team:
+- Partnerships:
+- Customers:
+- Revenue:
+- Research completed:
+
+  ## Constraints
+
+Budget:
+
+Timeline:
+
+Geography:
+
+Team limitations:
+
+Technology limitations:
+
+Regulatory limitations:
+
+
