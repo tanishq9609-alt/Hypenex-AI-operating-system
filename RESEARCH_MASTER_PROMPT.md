@@ -111,6 +111,11 @@ Prioritise:
 
 Avoid unsupported internet claims.
 
+Prioritise current, dated sources over internal knowledge. Where a fact
+could plausibly have changed (market size, competitor pricing, funding
+data, investor activity), search for the current figure rather than
+relying on prior knowledge, and note the date of the source.
+
 If reliable evidence does not exist:
 
 State:
