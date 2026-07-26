@@ -60,7 +60,9 @@ The Hypenex AI Operating System consists of the following engines:
 ---
 
 # How to Run This System
-
+0. Complete HYPENEX_INPUT_BRIEF.md.
+The operator provides initial venture context before activating Claude.
+The document is an input questionnaire, not a final analysis.
 1. Give Claude `RESEARCH_MASTER_PROMPT.md` as a single prompt. Claude executes Stages 1–4 (Market, Competitor, Customer, Investor research) in order, each gated by Red Team review, per the rules in `00_Core_System.md` and `08_Red_Team_Engine.md`.
 2. Claude compiles validated findings into the `09_Strategy_Bible.md` structure.
 3. The completed Strategy Bible is handed to GPT, along with the rules in `10_Pitch_Deck_Engine.md`.
