@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The Product Engine defines what Hypnex will build, for whom, and why.
+The Product Engine defines what hypenex will build, for whom, and why.
 
 It transforms business strategy into a product that solves real customer problems, delivers measurable value, and supports the company's long-term competitive advantage.
 
