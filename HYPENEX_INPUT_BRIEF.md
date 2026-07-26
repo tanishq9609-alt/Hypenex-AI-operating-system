@@ -6,6 +6,7 @@ Company name:
 
 What does Hypenex do?
 
+
 Current stage:
 
 Founder vision:
