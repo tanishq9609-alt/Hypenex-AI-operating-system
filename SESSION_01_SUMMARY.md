@@ -1,6 +1,6 @@
-# PROJECT HANDOVER – HYPNEX AI OPERATING SYSTEM
+# PROJECT HANDOVER – hypenex AI OPERATING SYSTEM
 
-This conversation was focused on designing the architecture for an AI Operating System that will be used to build Hypnex and future ventures.
+This conversation was focused on designing the architecture for an AI Operating System that will be used to build hypenex and future ventures.
 
 ## Original Objective
 
@@ -122,7 +122,7 @@ Specifically, we need to define:
 8. Human approval checkpoints.
 9. Where Claude is used.
 10. Where ChatGPT is used.
-11. How projects (like Hypnex) interact with the operating system.
+11. How projects (like hypenex) interact with the operating system.
 12. How reusable templates and prompts should be organised.
 
 Only after this architecture is finalised should we begin writing or rewriting engine content.
@@ -133,7 +133,7 @@ Only after this architecture is finalised should we begin writing or rewriting e
 
 The goal is no longer to create a single founder prompt.
 
-The goal is to build a reusable AI Operating System that can be used to build venture-scale companies, with Hypnex being the first project that runs on it.
+The goal is to build a reusable AI Operating System that can be used to build venture-scale companies, with hypenex being the first project that runs on it.
 
 The operating system should be modular, maintainable, version-controlled, reusable, and capable of evolving over time without requiring complete rewrites.
 
