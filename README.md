@@ -1,54 +1,45 @@
-# Hypnex AI Operating System
+# Hypenex AI Operating System
 
-## Purpose
+## Overview
 
-The Hypnex AI Operating System is a modular framework for researching, designing, validating, and communicating a venture-scale business.
+The Hypenex AI Operating System is a modular AI-powered strategic framework designed to transform a raw venture idea into an evidence-backed, investor-ready company strategy.
 
-Rather than relying on one large AI prompt, the system is divided into specialised engines. Each engine has a single responsibility and produces outputs that become inputs for the next engine.
+It is not a single prompt.
 
----
+It is a structured operating system made of specialised engines, where each engine has a defined responsibility, produces validated outputs, and passes those outputs to the next stage.
 
-## Workflow
+The system follows:
 
-```text
-00 Core System
-      ↓
-01 Research Engine
-      ↓
-02 Strategy Engine
-      ↓
-03 Product Engine
-      ↓
-04 AI Engine
-      ↓
-05 Finance Engine
-      ↓
-06 GTM Engine
-      ↓
-07 Investor Engine
-      ↓
-08 Red Team Engine
-      ↓
-09 Strategy Bible
-      ↓
-10 Pitch Deck Engine
-```
+**Evidence → Understanding → Strategy → Validation → Communication**
+
+The objective is to reduce founder bias, improve strategic decision-making, and create investor materials based on validated intelligence rather than assumptions.
 
 ---
 
-## Engine Responsibilities
+# Core Operating Rules
 
-| Engine            | Responsibility                                                   |
-| ----------------- | ---------------------------------------------------------------- |
-| 00 Core           | Defines how the AI should think and operate.                     |
-| 01 Research       | Collects and validates evidence.                                 |
-| 02 Strategy       | Builds the business strategy.                                    |
-| 03 Product        | Designs the product and roadmap.                                 |
-| 04 AI             | Defines AI capabilities and technical direction.                 |
-| 05 Finance        | Builds financial models and unit economics.                      |
-| 06 GTM            | Creates growth and go-to-market strategy.                        |
-| 07 Investor       | Tests the business from an investor perspective.                 |
-| 08 Red Team       | Challenges assumptions and identifies weaknesses.                |
-| 09 Strategy Bible | Combines all validated outputs into the master company strategy. |
-| 10 Pitch Deck     | Produces investor-ready materials from the Strategy Bible.       |
+Every engine operates under the rules defined in:
 
+`00_Core_System.md`
+
+The non-negotiable principles are:
+
+- Evidence over opinion.
+- Facts must be separated from assumptions.
+- Hypotheses must be testable.
+- Recommendations must have reasoning behind them.
+- Sources must be identified.
+- Weak conclusions must be challenged before acceptance.
+- Red Team validation is required before strategic conclusions are finalised.
+
+The system prioritises:
+
+- Accuracy over excitement.
+- Truth over persuasion.
+- Strategic clarity over unnecessary complexity.
+
+---
+
+# Engine Map
+
+The Hypenex AI Operating System consists of the following engines:
