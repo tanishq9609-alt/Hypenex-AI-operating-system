@@ -84,3 +84,21 @@ Examples:
 - Is the business model viable?
 - Who would invest?
 - What could kill this company?
+
+  ## Founder Beliefs vs Known Facts
+
+### Known Facts
+
+What do we know with evidence?
+
+---
+
+### Founder Beliefs
+
+What do we currently believe but have not proven?
+
+---
+
+### Unknowns
+
+What do we not know yet?
