@@ -159,7 +159,7 @@ The research process must maintain frequent checkpoints throughout execution.
 
 Do not wait until the completion of an entire stage before saving progress.
 
-At the end of every completed stage (after it passes Red Team review), output a "SESSION STATE UPDATE" block and save it to `SESSION_STATE.md`, containing:
+After every meaningful research sub-step and at the end of every completed stage (after it passes Red Team review), output a "SESSION STATE UPDATE" block and save it to `SESSION_STATE.md`, containing:
 
 - What has been completed (stages completed).
 - The next stage to run.
