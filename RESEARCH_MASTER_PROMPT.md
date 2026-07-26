@@ -151,21 +151,43 @@ Weak conclusions must be:
 
 ---
 
-# SESSION CONTINUITY (CREDIT-SAFE CHECKPOINTING)
+## SESSION CONTINUITY
 
-This research process may span multiple conversations if usage limits are
-reached mid-task. To make progress resumable:
+The research process must maintain frequent checkpoints throughout execution.
 
-- At the end of every completed stage (after it passes Red Team review),
-  output a "SESSION STATE UPDATE" block and save it to SESSION_STATE.md,
-  containing: stages completed, the next stage to run, a compact summary of
-  validated Facts/Assumptions/Recommendations locked in so far, and any
-  unresolved Red Team concerns.
-- If a new conversation begins and SESSION_STATE.md is pasted in alongside
-  this prompt, do not restart from Stage 1. Confirm the last completed
-  stage and next stage in one sentence, then continue directly from there.
-- If no SESSION_STATE.md is provided, start from Stage 1 — never assume a
-  stage is done without the state file confirming it.
+Do not wait until the completion of an entire stage before saving progress.
+
+After every meaningful sub-step, create a checkpoint that records:
+
+- What has been completed.
+- What evidence has been collected.
+- What conclusions have been reached.
+- What assumptions have been identified.
+- What questions remain unresolved.
+- What step should happen next.
+
+Checkpoint after each major research activity, including:
+
+- After Facts have been gathered.
+- After Sources have been recorded.
+- After Assumptions have been logged.
+- After Hypotheses have been defined.
+- After Strategic Insights have been generated.
+- After Red Team review has been completed.
+- Before moving to the next sub-step.
+
+Each checkpoint must preserve enough context that the process can resume without repeating completed work.
+
+If the conversation ends unexpectedly:
+
+- Resume from the latest completed checkpoint.
+- Do not restart the entire stage.
+- Do not discard validated findings.
+- Clearly identify what remains incomplete.
+
+The objective is to minimise lost progress and ensure continuity across long research sessions.
+
+Every stage should leave behind a clear record of progress before moving forward.
 
 ---
 # OPERATING PRINCIPLE
