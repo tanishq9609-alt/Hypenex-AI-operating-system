@@ -48,6 +48,46 @@
 
 ---
 
+# HANDLING INCOMPLETE STRATEGY BIBLE CONTENT
+
+The Strategy Bible produced by `09_STRATEGY_BIBLE_MASTER_PROMPT.md` may contain sections or statements marked:
+
+"Not yet validated for inclusion."
+
+This means the underlying claim did not receive an ACCEPTED verdict from the Red Team Engine, or no upstream engine produced it.
+
+When this placeholder appears in content a slide would otherwise use:
+
+- Do not invent plausible-sounding content to fill the gap.
+- Do not omit the gap silently as if the topic does not exist.
+- State plainly, in investor-appropriate language, that this area is not yet validated or is in progress (for example: "Team build-out in progress" rather than fabricated team credentials).
+
+An honest gap is always preferable to a fabricated strength. A sophisticated investor will notice a fabricated claim faster than an acknowledged gap.
+
+---
+
+# EARLY-STAGE SLIDE GUIDANCE
+
+Some ventures processed by this system will be idea-stage, with little or no traction and a minimal team beyond the founder(s). This is expected and must not be disguised.
+
+## Traction and Validation Slide
+
+If the Strategy Bible contains little or no confirmed traction evidence:
+
+- Do not stretch early or informal signals into traction claims.
+- Reframe the slide honestly, for example as validation completed so far (research findings, customer interviews, validated demand signals) plus a clear plan for what will be validated next and how.
+- Never present a validation plan as if it were achieved traction.
+
+## Team and Execution Slide
+
+Team and Execution draws in part from Strategy Bible Section 10 (Operating Strategy), which is explicitly labelled as partially sourced, since no dedicated Operating Engine exists in this system version.
+
+- Only include team and execution claims that are actually present and validated in the Strategy Bible.
+- Do not invent roles, hires, advisors, or capabilities that were not supplied.
+- If available information is minimal, state the team's relevant validated background plainly and concisely rather than padding the slide with generic claims.
+
+---
+
 # Pitch Deck Structure
 
 ## 1. Title Slide
@@ -211,6 +251,14 @@ Demonstrates the economic potential of the venture.
 - Growth assumptions.
 - Unit economics summary.
 
+### Base and Downside Case Requirement
+
+The Finance Engine validates every projection with both a base case and a stress-tested downside case. This slide must reflect that discipline rather than presenting only the optimistic figure.
+
+- Lead with the base case as the expected scenario.
+- Include the downside case, or its key implication, rather than omitting it to make the opportunity look larger than validated.
+- Do not present a single optimistic number as if it were the only scenario considered.
+
 ### Validation Requirement
 
 All financial information must come directly from the Strategy Bible.
@@ -230,6 +278,8 @@ Demonstrates evidence that the venture is progressing.
 - Growth indicators.
 - Strategic achievements.
 
+See EARLY-STAGE SLIDE GUIDANCE above for how to handle this slide when the venture is pre-traction.
+
 ### Validation Requirement
 
 Only confirmed evidence may be included.
@@ -247,6 +297,8 @@ Explains why the venture has the capability to succeed.
 - Relevant capabilities.
 - Strategic advantages.
 - Execution strengths.
+
+See EARLY-STAGE SLIDE GUIDANCE above for how to handle this slide when Strategy Bible Section 10 is minimally sourced.
 
 ### Validation Requirement
 
@@ -281,6 +333,9 @@ Before approval:
 - Every assumption must be clearly identified.
 - Every investor concern must have been considered.
 - Every major statement must survive Red Team scrutiny.
+- Any "Not yet validated for inclusion" content has been handled per the rule above — never invented, never silently dropped.
+- Financial claims reflect both base and downside cases where the Strategy Bible provides both.
+- Traction and Team slides honestly reflect the venture's actual stage — no early-stage gap has been disguised as an accomplishment.
 - The deck must communicate opportunity without exaggeration.
 
 The Pitch Deck Engine does not create new strategy.
