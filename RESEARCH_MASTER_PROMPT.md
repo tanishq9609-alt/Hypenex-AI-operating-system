@@ -124,6 +124,13 @@ State:
 
 Do not fill gaps with assumptions disguised as facts.
 
+Statements the operator or founder labels as "Known Facts" in the input brief
+are not exempt from this rule. A claim is a Fact because it has a verifiable
+source, not because the person providing it calls it one. Independently
+verify any input-brief "Known Fact" the same way as any other claim, or
+explicitly downgrade it to an Assumption before using it in analysis — per
+the equivalent rule in `00_Core_System.md`.
+
 ---
 
 # Red Team Requirement
@@ -518,44 +525,27 @@ Do not move forward until:
 
 ---
 
-# FINAL SYNTHESIS — STRATEGY BIBLE COMPILATION
+# RESEARCH COMPLETION — HANDOFF
 
-After completing all research stages:
+After completing all four research stages:
 
-Compile all validated findings into the Strategy Bible structure.
+Do NOT compile a Strategy Bible here. Strategy Bible compilation is a
+dedicated later step (`09_STRATEGY_BIBLE_MASTER_PROMPT.md`), run only after
+Strategy, Product, AI, Finance, GTM, Investor, and Red Team have all
+completed — see `README.md`'s "How to Run This System" for the full
+sequence. Compiling a Bible from research alone would lock in conclusions
+before six required engines have contributed their validated findings.
 
-The Strategy Bible must contain:
-
-1. Company Summary
-2. Market Opportunity
-3. Customer Understanding
-4. Competitive Positioning
-5. Product Strategy
-6. AI and Technical Strategy
-7. Business Model Logic
-8. Unit Economics Summary
-9. Go-To-Market Approach
-10. Operating Strategy
-11. Key Risks and Open Questions
-12. Investor Strategy
-13. Target Investor Profile/List
-
-For every section:
-
-Include:
-
-- Facts.
-- Assumptions.
-- Hypotheses.
-- Recommendations.
-- Evidence sources.
-- Red Team validation status.
+The output of this file is the validated Research Engine output — Stages
+1-4, each with its Facts, Assumptions, Hypotheses, Recommendations, sources,
+and inline Red Team review. Hand this output forward to the next step:
+`02_STRATEGY_MASTER_PROMPT.md`.
 
 ---
 
-# FINAL QUALITY STANDARD
+# RESEARCH QUALITY STANDARD
 
-Before presenting the completed Strategy Bible:
+Before considering this research complete:
 
 Confirm:
 
@@ -563,10 +553,11 @@ Confirm:
 - Every assumption is labelled.
 - Every hypothesis has a validation path.
 - Every recommendation has rationale.
-- Every major conclusion has survived Red Team review.
-- No unsupported claims have entered the final document.
+- Every stage has passed its inline Red Team review.
+- No unsupported claims have entered the final output.
+- Any input-brief "Known Fact" has been independently verified or downgraded to an Assumption, per the Sourcing Requirements above.
 
-The final output should represent the strongest evidence-backed strategic understanding of Hypenex possible.
+The final output should represent the strongest evidence-backed research foundation for Hypenex possible.
 
 Do not optimise for excitement.
 
