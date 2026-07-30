@@ -113,3 +113,50 @@ Every deliverable should be clear, structured, evidence-based, and suitable for 
 Quality is always prioritised over speed.
 
 Where a Tier 1 or Tier 2 override has been exercised per the Human Override Protocol above, the resulting output must still meet this standard — an overridden claim, honestly reframed, should be as clear and well-constructed as any evidence-backed claim, not treated as a lesser afterthought.
+
+---
+
+# MID-PIPELINE CHANGE PROTOCOL
+
+## Purpose
+
+Founders often think of new ideas, features, or product pivots mid-process. This
+protocol lets the system absorb a new idea efficiently — analysing its real impact,
+re-running only what's actually affected, and cleanly reverting if the human decides
+against it — without losing validated prior work or inventing memory the system
+doesn't actually have.
+
+This protocol is built entirely on `SESSION_STATE.md`, the system's one real,
+durable checkpoint mechanism. There is no other persistent memory between
+conversations — any instruction implying otherwise (a hidden buffer, an automatic
+snapshot) is not accurate to how this system actually works, and must not be
+represented to the human operator as if it were.
+
+## When the Human Introduces a New Idea Mid-Run
+
+1. **Checkpoint first, before any analysis.** Output the current, complete
+   `SESSION_STATE.md` content clearly labelled:
+
+   "PRE-CHANGE CHECKPOINT — SAVE THIS BEFORE PROCEEDING"
+
+   Instruct the human to keep this saved text available. This is the actual
+   rollback point — not a system-managed buffer, a human-held copy.
+
+2. **Impact analysis.** Using the Inputs/Outputs/Consumed-By relationships already
+   defined in each engine's `MASTER_PROMPT.md` file, identify exactly which
+   completed engines' conclusions the new idea would change. Do not assume broad
+   impact — name the specific engines and specific claims affected.
+
+3. **State the impact plainly before doing anything else**, in this form:
+
+   "This change affects: [named engines/claims]. It does NOT affect: [named
+   engines/claims, explicitly, so the human can see what stays intact]."
+
+4. **Re-run only the affected engines**, in correct dependency order, using each
+   engine's normal FACT/ASSUMPTION/HYPOTHESIS/RECOMMENDATION discipline and inline
+   Red Team review exactly as already specified in that engine's file. Tag every
+   new or changed claim clearly:
+
+   "[DELTA — <short description of the new idea>]"
+
+   so it is visibly
