@@ -112,19 +112,49 @@ All statements must exist in the Strategy Bible.
 
 ### Purpose
 
-Explains the customer problem and why it matters.
+Explains the customer problem and why it matters — and makes the investor feel
+the cost of that problem, not just acknowledge it exists.
+
+### PAIN-FIRST MANDATE
+
+This slide is where the sale to the investor actually happens. A stated problem
+without a felt cost doesn't move an investor; a quantified, specific cost does.
+This mandate applies only to this slide's framing — it does not license inventing
+new facts, and every element below must trace to the Strategy Bible exactly like
+every other claim in this file.
+
+Construct this slide using three elements, all sourced from already-validated
+Strategy Bible content:
+
+- **Quantified cost of the problem.** Not "SMEs avoid influencer marketing" but
+  the actual evidenced numbers already in the Bible (e.g., adoption-rate gaps,
+  regulatory fine exposure, documented objection rates). If the Bible doesn't
+  contain a number for this, do not invent one — state the problem qualitatively
+  instead, per the existing "Not yet validated for inclusion" rule elsewhere in
+  this file.
+
+- **Cost of inaction.** What continues to happen, concretely, if this problem
+  stays unsolved — drawn from the Bible's Market Opportunity and Key Risks
+  sections, not composed fresh.
+
+- **Friction map.** Where existing alternatives specifically fail, drawn directly
+  from the Bible's Competitive Positioning section — name the specific gap, not a
+  generic "nothing else solves this" claim.
 
 ### Must Contain
 
 - Core customer pain point.
+- Quantified cost of the problem (per the mandate above).
+- Cost of inaction.
+- Friction points in current alternatives (per the mandate above).
 - Evidence of the problem.
-- Current limitations of existing alternatives.
 
 ### Validation Requirement
 
 The problem must be validated through Strategy Bible customer and market sections.
-
----
+Every quantified figure, cost claim, and friction point on this slide must trace
+to specific, already-validated Bible content — this slide intensifies how
+validated evidence is presented, it does not loosen the sourcing bar.
 
 ## 3. Solution Slide
 
